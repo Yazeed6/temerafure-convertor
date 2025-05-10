@@ -1,0 +1,59 @@
+body{
+/* تصميم الصفحه */
+    margin: 0;
+    background: linear-gradient( to left bottom , lightgreen , lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: darkcyan;
+
+
+    }
+
+/* استدعاء الكلاس الي فيه كل المكونات عشان اصممه */
+    .container{
+
+        background: rgba(255, 255, 255, .3);
+        padding: 20px;                     /* حجم المربع  */
+                /* حجم الضل  */           /* لونه */
+        box-shadow: 0 4px 10px       rgba(0 , 0, 0, .3);
+        border-radius: 10px;              /* حواف المربع */
+        width: 85%;                       /* عرض المربع  */
+        max-width: 450px;                 /* احط للعرض حد في الملابتوب */
+        min-width: 350px;                 /* حد للعرض بالجوال  */
+        display: flex;                    /* عشان يكون مرن */
+        flex-direction: column;           /* عشان يكونو فوق بعض المدخلات  */
+        align-items: center;              /* ِعشان يكونو بالنص المربع */
+    }
+
+
+    .heading{
+        font-size: 32px;  /* اعدل حجم العنوان */
+    }
+
+
+    .temp-convertor{
+       
+        width: 100%;      /* عشان ياخذ 100% من المربع */
+        padding: 15px;    /* البتباعد بينها */
+        font-weight: bold; /* نوع النص عريض */
+        font-size: 18PX;
+    }
+
+    .input{
+        width: 220px;    /* عرض خانه الادخال */
+        font-family: monospace; /* نوع الخط  */
+        padding: 5px;  /* الطول  */
+        float: right;  /* عشان نحطها يمين المربع محددين حده فوق */
+        outline: none;  /* الخط الي حولين مربع الادخال */
+        background: rgba(255, 255, 255, .3);
+        border-color: rgba(255, 255, 255, .5);/* jتصميم */
+        color: darkgreen; /*  لون النص المدخل */
+        font-size: 18px;  /* حدم الص المدخل */
+    }
+
+    .input::placeholder{
+        color: darkgray; /*  لون الكلام فبل الادخال */
+    }
