@@ -30,7 +30,8 @@ body{
 
 
     .heading{
-        font-size: 32px;  /* اعدل حجم العنوان */
+        font-size: 40px;  /* اعدل حجم العنوان */
+        font-weight: bold;
     }
 
 
@@ -46,7 +47,7 @@ body{
         width: 220px;    /* عرض خانه الادخال */
         font-family: monospace; /* نوع الخط  */
         padding: 5px;  /* الطول  */
-        float: right;  /* عشان نحطها يمين المربع محددين حده فوق */
+        float: left;  /* عشان نحطها يمين المربع محددين حده فوق */
         outline: none;  /* الخط الي حولين مربع الادخال */
         background: rgba(255, 255, 255, .3);
         border-color: rgba(255, 255, 255, .5);/* jتصميم */
